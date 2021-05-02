@@ -15,24 +15,24 @@ FramePerSec = pygame.time.Clock()
 chick = Chick()
 spider = Spider()
 worm = Worm()
-# spider2 = Spider()
-# worm2 = Worm()
+spider2 = Spider()
+worm2 = Worm()
 
 #Creating Sprites Groups
 bad_food = pygame.sprite.Group()
 bad_food.add(spider)
-# bad_food.add(spider2)
+bad_food.add(spider2)
 
 good_food = pygame.sprite.Group()
 good_food.add(worm)
-# good_food.add(worm2)
+good_food.add(worm2)
 
 all_sprites = pygame.sprite.Group()
 all_sprites.add(chick)
 all_sprites.add(spider)
 all_sprites.add(worm)
-# all_sprites.add(spider2)
-# all_sprites.add(worm2)
+all_sprites.add(spider2)
+all_sprites.add(worm2)
 
 #Adding a new User event 
 INC_SPEED = pygame.USEREVENT + 1
@@ -62,7 +62,7 @@ def main():
             view_board.DISPLAYSURF.blit(entity.image, entity.rect)
             SCORE = entity.move(SPEED, SCORE)
 
-        #To be run if collision occurs between chicky and bad food
+        #To be run if collision occurs between chicky and bad food (spiders)
         if pygame.sprite.spritecollideany(chick, bad_food):
             time.sleep(1)  
             view_board.DISPLAYSURF.fill(view_board.RED)
@@ -75,11 +75,14 @@ def main():
             time.sleep(2)
             pygame.quit()
             sys.exit() 
-        
+
+        #To be run if collision occurs between chicky and good food (worms)
         if pygame.sprite.spritecollideany(chick, good_food):
             SCORE += 1 
             worm.rect.top = 0
-            worm.rect.center = (random.randint(40, view_board.SCREEN_WIDTH - 40), 0)     
+            worm.rect.center = (random.randint(40, view_board.SCREEN_WIDTH - 40), 0)
+            worm2.rect.top = 0
+            worm2.rect.center = (random.randint(40, view_board.SCREEN_WIDTH - 40), 0)     
             pygame.display.update()        
             
         pygame.display.update()
