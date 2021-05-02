@@ -108,6 +108,7 @@ while True:
 
     DISPLAYSURF.blit(background, (0,0))
     scores = font_small.render(str(SCORE), True, BLACK)
+    print(str(SCORE))
     DISPLAYSURF.blit(scores, (10,10))
 
     #Moves and Re-draws all Sprites
