@@ -49,7 +49,7 @@ def main():
         #Cycles through all events occuring  
         for event in pygame.event.get():
             if event.type == INC_SPEED:
-                SPEED += 0.2      
+                SPEED += 0.1      
             if event.type == QUIT:
                 pygame.quit()
                 sys.exit()
