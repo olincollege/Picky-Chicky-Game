@@ -4,7 +4,6 @@ import random, time
 from Picky_Chicky_view import *
 #from Picky_Chicky_game import *
 
-
 pygame.init()
 
 view_board = SetupBoard()
@@ -14,7 +13,7 @@ class Spider(pygame.sprite.Sprite):
         super().__init__() 
         self.image = pygame.image.load("spider.png")
         self.image = pygame.transform.scale(self.image, (200, 200)) 
-        self.surf = pygame.Surface((25, 50))
+        self.surf = pygame.Surface((40, 25))
         self.rect = self.surf.get_rect(center = (random.randint(40,view_board.SCREEN_WIDTH-40)
                                                  , 0))
 
@@ -31,7 +30,7 @@ class Worm(pygame.sprite.Sprite):
         super().__init__() 
         self.image = pygame.image.load("worm.png")
         self.image = pygame.transform.scale(self.image, (100, 100)) 
-        self.surf = pygame.Surface((42, 45))
+        self.surf = pygame.Surface((8, 45))
         self.rect = self.surf.get_rect(center = (random.randint(40,view_board.SCREEN_WIDTH-40)
                                                  , 0))
 
@@ -48,7 +47,7 @@ class Chick(pygame.sprite.Sprite):
         super().__init__() 
         self.image = pygame.image.load("chick.png")
         self.image = pygame.transform.scale(self.image, (180,180)) 
-        self.surf = pygame.Surface((90, 120))
+        self.surf = pygame.Surface((70, 120))
         self.rect = self.surf.get_rect(center = (160, 520))
        
     def move(self, SPEED, SCORE):
