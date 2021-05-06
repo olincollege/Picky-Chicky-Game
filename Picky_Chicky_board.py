@@ -53,7 +53,7 @@ class Worm(pygame.sprite.Sprite):
         super().__init__() 
         self.image = pygame.image.load("worm.png")
         self.image = pygame.transform.scale(self.image, (100, 100)) 
-        self.surf = pygame.Surface((42, 45))
+        self.surf = pygame.Surface((8, 45))
         self.rect = self.surf.get_rect(center = (random.randint(40,view_board.SCREEN_WIDTH-40)
                                                  , 0))
 
