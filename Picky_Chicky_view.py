@@ -34,4 +34,4 @@ class SetupBoard():
     game_over_resize = pygame.transform.scale(game_over, (701, 701))    
 
     # Setting up Display Surface
-    DISPLAYSURF = pygame.display.set_mode((600,700))
+    DISPLAYSURF = pygame.display.set_mode((600,625))
