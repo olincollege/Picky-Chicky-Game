@@ -33,7 +33,7 @@ To play *Picky Chicky*, you will need to installation the Pygame library in Pyth
 
 Now, you should see a pop-up of the game window. Enjoy your play!
 
-## Full link to Github page
+## See our Github page for more!
 
 [https://github.com/olincollege/Picky-Chicky-Game/](https://github.com/olincollege/Picky-Chicky-Game/)
 
