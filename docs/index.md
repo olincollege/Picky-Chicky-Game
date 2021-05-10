@@ -34,6 +34,6 @@ During gameplay, you will see Wormy and Spidey falling from the top of the scree
 ![Sree profile picture](/docs/sree.jpg)
 
 [Kei Chua](https://www.linkedin.com/in/kei-chua-3a7a96199/)
-![Kei profile picture](/docs/kei.gif)
+![Kei profile picture](/docs/kei.jpg)
 
 ## Resources
