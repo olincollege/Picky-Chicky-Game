@@ -1,24 +1,24 @@
-import pygame
 import sys
-from pygame.locals import *
 import random
 import time
+import pygame
+from pygame.locals import *
 from Picky_Chicky_board import Spider, Chick, Worm
 from Picky_Chicky_view import *
 
-#Initialzing
+# Initialzing
 pygame.init()
 
-#Setting up FPS
+# Setting up FPS
 FPS = 60
 FramePerSec = pygame.time.Clock()
 
-#Setting up Sprites
+# Setting up Sprites
 chick = Chick()
 spider = Spider()
 worm = Worm()
 
-#Creating Sprites Groups
+# Creating Sprites Groups
 bad_food = pygame.sprite.Group()
 bad_food.add(spider)
 good_food = pygame.sprite.Group()
@@ -36,6 +36,7 @@ pygame.time.set_timer(INC_SPEED, 1000)
 # Create a view instance
 view_board = SetupBoard()
 
+
 def start_screen():
     '''
     Creates the start screen for the Picky Chicky Game.
@@ -44,13 +45,14 @@ def start_screen():
     '''
     end_it = False
     while end_it == False:
-        view_board.DISPLAYSURF.blit(view_board.resize_start_screen, (-50,-75))
+        view_board.DISPLAYSURF.blit(view_board.resize_start_screen, (-50, -75))
 
         for event in pygame.event.get():
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_RETURN:
                     end_it = True
         pygame.display.flip()
+
 
 def game_over(score):
     '''
@@ -62,10 +64,10 @@ def game_over(score):
     '''
 
     scores_2 = view_board.font.render(str(score), True, view_board.WHITE)
-                # render a score to show for the Game over screen
+    # render a score to show for the Game over screen
     time.sleep(1)
-    view_board.DISPLAYSURF.blit(view_board.game_over_resize, (0,-40))
-    view_board.DISPLAYSURF.blit(scores_2, (340,472))
+    view_board.DISPLAYSURF.blit(view_board.game_over_resize, (0, -40))
+    view_board.DISPLAYSURF.blit(scores_2, (340, 472))
     pygame.display.update()
     for entity in all_sprites:
         entity.kill()
@@ -73,8 +75,9 @@ def game_over(score):
     pygame.quit()
     sys.exit()
 
+
 def main():
-    ''' 
+    '''
     The main game loop for the Picky Chicky Game.
     '''
     speed = 5
@@ -89,22 +92,24 @@ def main():
                 sys.exit()
 
         # Display the Background
-        view_board.DISPLAYSURF.blit(view_board.resize_background, (0,-60))
-        scores = view_board.font_small.render(str(score), True, view_board.BLACK)
-        view_board.DISPLAYSURF.blit(scores, (10,10))
+        view_board.DISPLAYSURF.blit(view_board.resize_background, (0, -60))
+        scores = view_board.font_small.render(
+            str(score), True, view_board.BLACK)
+        view_board.DISPLAYSURF.blit(scores, (10, 10))
 
         # Moves and Re-draws all Sprites
         PygameDraw.draw_all_characters(all_sprites, speed, score)
 
-        #To be run if collision occurs between chicky and bad food (spiders)
+        # To be run if collision occurs between chicky and bad food (spiders)
         if pygame.sprite.spritecollideany(chick, bad_food):
             game_over(score)
 
-        #To be run if collision occurs between chicky and good food (worms)
+        # To be run if collision occurs between chicky and good food (worms)
         if pygame.sprite.spritecollideany(chick, good_food):
             score += 1
             worm.rect.top = 0
-            worm.rect.center = (random.randint(40, view_board.SCREEN_WIDTH - 40), 0)
+            worm.rect.center = (random.randint(
+                40, view_board.SCREEN_WIDTH - 40), 0)
             pygame.display.update()
 
         pygame.display.update()

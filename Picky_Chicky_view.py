@@ -1,10 +1,11 @@
-import pygame
 import sys
 #from pygame.locals import *
 import random
 import time
+import pygame
 
 pygame.init()
+
 
 class SetupBoard():
     '''
@@ -35,7 +36,7 @@ class SetupBoard():
 
         DISPLAYSURF: A Pygame Surface object representing the overall
                             display screen
-    ''' 
+    '''
 
     # Setting up colors
     BLACK = (0, 0, 0)
@@ -62,7 +63,8 @@ class SetupBoard():
     game_over_resize = pygame.transform.scale(game_over, (701, 701))
 
     # Setting up Display Surface
-    DISPLAYSURF = pygame.display.set_mode((600,625))
+    DISPLAYSURF = pygame.display.set_mode((600, 625))
+
 
 class PygameDraw():
     """
@@ -84,5 +86,3 @@ class PygameDraw():
         for entity in all_sprites:
             view_board.DISPLAYSURF.blit(entity.image, entity.rect)
             score = entity.move(speed, score)
-
-    
