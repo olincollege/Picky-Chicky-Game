@@ -4,13 +4,13 @@ Welcome to ***Picky Chicky***! In this game, you will help Chicky - who is quite
 
 The game consists of 3 characters: Chicky, Wormy, and Spidey. Your objective is to make sure Chicky collides only with the Wormy, the falling worm, while avoiding Spidey, the falling spider. Each worm collected increases your score by 1 point. If you collide with a spider, you lose the game and the game comes to an end, with your final score displayed.
 
-![Chicky](/docs/images/chick_resized.png) ![Wormy](images/worm_resized.png) ![Spidey](images/spider_resized.png)
+![Chicky](images/chick_resized.png) ![Wormy](images/worm_resized.png) ![Spidey](images/spider_resized.png)
 
 ## Gameboard
 
 From the three characters to the start, game, and end screens, all game components have been custom-made with pixel art graphics. With each game run, the places from which Wormy and Spidey fall are randomized, so you can never expect where they'll be falling from.
 
-![start screen](/docs/images/start_screen_resized.jpg) ![game background](images/game_background_resized.jpg) ![game over screen](images/game_over_resized.jpg)
+![start screen](images/start_screen_resized.jpg) ![game background](images/game_background_resized.jpg) ![game over screen](images/game_over_resized.jpg)
 
 ## Navigation
 
