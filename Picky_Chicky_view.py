@@ -1,4 +1,6 @@
-from pygame.locals import *
+'''
+Picky Chicky View Class
+'''
 import pygame
 
 pygame.init()
@@ -63,23 +65,18 @@ class SetupBoard():
     DISPLAYSURF = pygame.display.set_mode((600, 625))
 
 
-class PygameDraw():
-    """
-    A Pygame representation of the Picky Chicky Characters
-    """
+def draw_all_characters(all_sprites, speed, score):
+    '''
+    Moves and Re-draws all Sprites
 
-    def draw_all_characters(all_sprites, speed, score):
-        '''
-        Moves and Re-draws all Sprites
+    Args:
+        all_sprites: A Pygame Group object containing all the game
+        characters that need to the be drawn
+        speed: An integer representing the speed of the falling objects
+        score: An integer representing the current score
+    '''
+    view_board = SetupBoard()
 
-        Args:
-            all_sprites: A Pygame Group object containing all the game
-            characters that need to the be drawn
-            speed: An integer representing the speed of the falling objects
-            score: An integer representing the current score
-        '''
-        view_board = SetupBoard()
-
-        for entity in all_sprites:
-            view_board.DISPLAYSURF.blit(entity.image, entity.rect)
-            score = entity.move(speed, score)
+    for entity in all_sprites:
+        view_board.DISPLAYSURF.blit(entity.image, entity.rect)
+        score = entity.move(speed, score)

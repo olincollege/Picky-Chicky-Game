@@ -2,10 +2,10 @@ import random
 import time
 import sys
 import pygame
-#from pygame.locals import *
-from pygame.locals import QUIT
+import pygame.locals 
+
 from Picky_Chicky_board import Spider, Chick, Worm
-from Picky_Chicky_view import *
+from Picky_Chicky_view import SetupBoard, draw_all_characters
 
 # Initializing
 pygame.init()
@@ -31,7 +31,7 @@ all_sprites.add(spider)
 all_sprites.add(worm)
 
 # Adding a user event to increase speed every 1 second
-INC_SPEED = pygame.USEREVENT + 1
+INC_SPEED = pygame.locals.USEREVENT + 1
 pygame.time.set_timer(INC_SPEED, 1000)
 
 # Create a view instance
@@ -45,12 +45,12 @@ def start_screen():
     and the main game would be run.
     '''
     end_it = False
-    while end_it == False:
+    while end_it is False:
         view_board.DISPLAYSURF.blit(view_board.resize_start_screen, (-50, -75))
 
         for event in pygame.event.get():
-            if event.type == KEYDOWN:
-                if event.key == K_RETURN:
+            if event.type == pygame.locals.KEYDOWN:
+                if event.key == pygame.locals.K_RETURN:
                     end_it = True
         pygame.display.flip()
 
@@ -88,7 +88,7 @@ def main():
         for event in pygame.event.get():
             if event.type == INC_SPEED:
                 speed += 0.1
-            if event.type == QUIT:
+            if event.type == pygame.locals.QUIT:
                 sys.exit()
 
         # Display the Background
@@ -98,7 +98,7 @@ def main():
         view_board.DISPLAYSURF.blit(scores, (10, 10))
 
         # Moves and Re-draws all Sprites
-        PygameDraw.draw_all_characters(all_sprites, speed, score)
+        draw_all_characters(all_sprites, speed, score)
 
         # To be run if collision occurs between chicky and bad food (spiders)
         if pygame.sprite.spritecollideany(chick, bad_food):

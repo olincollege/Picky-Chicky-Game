@@ -3,8 +3,8 @@ Picky Chicky Board Class
 '''
 import random
 import pygame
-from pygame.locals import *
-from Picky_Chicky_view import *
+#from pygame.locals import *
+from Picky_Chicky_view import SetupBoard
 
 pygame.init()
 view_board = SetupBoard()
@@ -42,12 +42,15 @@ class Chick(pygame.sprite.Sprite):
 
         pressed_keys = pygame.key.get_pressed()
 
+        if speed:
+            None  # Pointless statment to make pylint happy lol
+
         if self.rect.left > -60:
-            if pressed_keys[K_LEFT]:
+            if pressed_keys[pygame.K_LEFT]:
                 self.rect.move_ip(-5, 0)
 
         if self.rect.right < (view_board.SCREEN_WIDTH - 20):
-            if pressed_keys[K_RIGHT]:
+            if pressed_keys[pygame.K_RIGHT]:
                 self.rect.move_ip(5, 0)
         return score
 
