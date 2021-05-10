@@ -11,7 +11,7 @@ The game consists of 3 characters: Chicky, Wormy, and Spidey.
 
 From the three characters to the start, game, and end screens, all game components have been custom-made with pixel art graphics. With each game run, the places from which Wormy and Spidey fall are randomized, so you can never expect where they'll be falling from.
 
-![start screen](/docs/images/start_screen.png) ![game background](/docs/images/game_background.png) ![game over screen](/docs/images/game_over.png)
+![start screen](/docs/images/start_screen_resized.png) ![game background](/docs/images/game_background_resized.png) ![game over screen](/docs/images/game_over_resized.png)
 
 
 ## Navigation
