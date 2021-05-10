@@ -40,15 +40,13 @@ Now, you should see a pop-up of the game window. Enjoy your play!
 
 # Creators
 
-![Sree profile picture](images/sree_resized.jpg)
-
+![Sree profile picture](images/sree_resized.jpg)  
 [**Sreenidhi Chalimadugu**](https://www.linkedin.com/in/sreenidhi-chalimadugu/)  
 Olin College of Engineering, 2023  
 Electrical and Computer Engineer
 
 
-![Kei profile picture](images/kei_resized.jpg)
-
+![Kei profile picture](images/kei_resized.jpg)  
 [**Kei Chua**](https://www.linkedin.com/in/kei-chua-3a7a96199/)  
 Olin College of Engineering, 2023  
 Mechanical Engineer
