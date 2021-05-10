@@ -2,7 +2,8 @@ import sys
 import random
 import time
 import pygame
-from pygame.locals import *
+# from pygame.locals import *
+from pygame.locals import QUIT
 from Picky_Chicky_board import Spider, Chick, Worm
 from Picky_Chicky_view import *
 
