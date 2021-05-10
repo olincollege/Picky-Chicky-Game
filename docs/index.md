@@ -40,9 +40,18 @@ Now you should see a pop-up of the game window. Enjoy your play!
 
 [**Sreenidhi Chalimadugu**](https://www.linkedin.com/in/sreenidhi-chalimadugu/)
 
+Olin College of Engineering, 2023
+
+Electrical and Computer Engineer
+
 ![Sree profile picture](/docs/images/sree_resized.jpg) 
 
+
 [**Kei Chua**](https://www.linkedin.com/in/kei-chua-3a7a96199/)
+
+Olin College of Engineering, 2023
+
+Mechanical Engineer
 
 ![Kei profile picture](/docs/images/kei_resized.jpg)
 
