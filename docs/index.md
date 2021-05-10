@@ -29,7 +29,7 @@ During gameplay, you will see Wormy and Spidey falling from the top of the scree
 
 To play *Picky Chicky*, you will need to installation the Pygame library in Python. You can install Python [here](https://www.python.org/downloads/) and Pygame [here](https://www.pygame.org/wiki/GettingStarted). Next, download the files in the Picky Chicky Game repository from Github [here](https://github.com/olincollege/Picky-Chicky-Game/), and navigate to the Picky Chicky folder in the terminal. Finally, the following code in your command line:
 
-`python Picky_Chicky_game.py`
+`python game.py`
 
 Now, you should see a pop-up of the game window. Enjoy your play!
 
