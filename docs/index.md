@@ -42,10 +42,8 @@ Now, you should see a pop-up of the game window. Enjoy your play!
 
 ![Sree profile picture](images/sree_resized.jpg)
 
-[**Sreenidhi Chalimadugu**](https://www.linkedin.com/in/sreenidhi-chalimadugu/)
-
-Olin College of Engineering, 2023
-
+[**Sreenidhi Chalimadugu**](https://www.linkedin.com/in/sreenidhi-chalimadugu/)  
+Olin College of Engineering, 2023  
 Electrical and Computer Engineer
 
 
