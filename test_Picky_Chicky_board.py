@@ -1,6 +1,10 @@
+'''
+Board.py test file
+'''
+
 import pytest
 import pygame
-from Picky_Chicky_board import *
+from board import *
 
 
 @pytest.fixture(scope="module")
