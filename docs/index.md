@@ -4,7 +4,7 @@ Welcome to ***Picky Chicky***! In this game, you will help Chicky - who is quite
 
 The game consists of 3 characters: Chicky, Wormy, and Spidey. 
 
-![Chicky](/docs/images/chick.png) ![Wormy](/docs/images/worm.png) ![Spidey](/docs/images/spider.png)
+![Chicky](/docs/images/chick_resized.png) ![Wormy](/docs/images/worm_resized.png) ![Spidey](/docs/images/spider_resized.png)
 
 
 ## Gameboard
