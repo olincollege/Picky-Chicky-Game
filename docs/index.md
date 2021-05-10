@@ -2,17 +2,15 @@ Welcome to ***Picky Chicky***! In this game, you will help Chicky - who is quite
 
 # Unique Features
 
-The game consists of 3 characters: Chicky, Wormy, and Spidey. 
+The game consists of 3 characters: Chicky, Wormy, and Spidey. Your objective is to make sure Chicky collides only with the Wormy, the falling worm, while avoiding Spidey, the falling spider. Each worm collected increases your score by 1 point. If you collide with a spider, you lose the game and the game comes to an end, with your final score displayed.
 
 ![Chicky](/docs/images/chick_resized.png) ![Wormy](/docs/images/worm_resized.png) ![Spidey](/docs/images/spider_resized.png)
-
 
 ## Gameboard
 
 From the three characters to the start, game, and end screens, all game components have been custom-made with pixel art graphics. With each game run, the places from which Wormy and Spidey fall are randomized, so you can never expect where they'll be falling from.
 
 ![start screen](/docs/images/start_screen_resized.jpg) ![game background](/docs/images/game_background_resized.jpg) ![game over screen](/docs/images/game_over_resized.jpg)
-
 
 ## Navigation
 
@@ -26,17 +24,21 @@ During gameplay, you will see Wormy and Spidey falling from the top of the scree
 
 ![gameplay demo gif](/docs/images/demo.gif)
 
+
 # Installation 
 
 To play *Picky Chicky*, you will need to installation the Pygame library in Python. You can install Python [here](https://www.python.org/downloads/) and Pygame [here](https://www.pygame.org/wiki/GettingStarted). Next, download the files in the Picky Chicky Game repository from Github [here](https://github.com/olincollege/Picky-Chicky-Game/), and navigate to the Picky Chicky folder in the terminal. Finally, the following code in your command line:
 
 `python Picky_Chicky_game.py`
 
-Now you should see a pop-up of the game window. Enjoy your play!
+Now, you should see a pop-up of the game window. Enjoy your play!
 
-## Full link to Github page: [https://github.com/olincollege/Picky-Chicky-Game/](https://github.com/olincollege/Picky-Chicky-Game/)
+## Full link to Github page
 
-## Creators
+[https://github.com/olincollege/Picky-Chicky-Game/](https://github.com/olincollege/Picky-Chicky-Game/)
+
+
+# Creators
 
 ![Sree profile picture](/docs/images/sree_resized.jpg)
 
@@ -56,7 +58,6 @@ Olin College of Engineering, 2023
 Mechanical Engineer
 
 
-## Resources
+# Resources
 
 To help develop this game, we took inspiration from the code in this Pygame tutorial from CodersLegacy, found [here](https://coderslegacy.com/python/python-pygame-tutorial/).
-
