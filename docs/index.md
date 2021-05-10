@@ -8,15 +8,15 @@ The game consists of 3 characters: Chicky, Wormy, and Spidey.
 
 ### Gameboard
 
-Custom pixel art
+From the three characters to the start, game, and end screens, all game components have been custom-made with pixel art graphics. With each game run, the places from which Wormy and Spidey fall are randomized, so you can never expect where they'll be falling from.
 
 ### Navigation
 
-By using the left and right arrows, you can help Chicky move around to dodge the spiders and obtain the worms.
+By using the left and right arrows, you can help Chicky move around to dodge the spiders and obtain the worms to get as many points as possible!
 
 ### Falling items
 
-During gameplay, you will see Wormy and Spidey falling from the top of the screen. And what's the fun part, you ask? They fall faster and faster by the *second*, so put your reflexes to the test and avoid Spidey as best as you can!
+During gameplay, you will see Wormy and Spidey falling from the top of the screen for Chicky to either collect or avoid. And what's the fun part, you ask? They fall faster and faster by the *second*, so put your reflexes to the test and avoid Spidey as best as you can!
 
 ## Putting it all together...
 
@@ -26,13 +26,14 @@ During gameplay, you will see Wormy and Spidey falling from the top of the scree
 
 ## Download
 
-### Link to Github page: 
+### Link to Github page: https://github.com/olincollege/Picky-Chicky-Game/
 
 ## Creators
 
 [Sreenidhi Chalimadugu](https://www.linkedin.com/in/sreenidhi-chalimadugu/)
+![Sree profile picture](/docs/sree.jpg)
 
 [Kei Chua](https://www.linkedin.com/in/kei-chua-3a7a96199/)
-
+![Kei profile picture](/docs/kei.gif)
 
 ## Resources
