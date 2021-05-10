@@ -4,13 +4,13 @@ Welcome to ***Picky Chicky***! In this game, you will help Chicky - who is quite
 
 The game consists of 3 characters: Chicky, Wormy, and Spidey. Your objective is to make sure Chicky collides only with the Wormy, the falling worm, while avoiding Spidey, the falling spider. Each worm collected increases your score by 1 point. If you collide with a spider, you lose the game and the game comes to an end, with your final score displayed.
 
-![Chicky](/docs/images/chick_resized.png) ![Wormy](/docs/images/worm_resized.png) ![Spidey](/docs/images/spider_resized.png)
+![Chicky](/docs/images/chick_resized.png) ![Wormy](images/worm_resized.png) ![Spidey](images/spider_resized.png)
 
 ## Gameboard
 
 From the three characters to the start, game, and end screens, all game components have been custom-made with pixel art graphics. With each game run, the places from which Wormy and Spidey fall are randomized, so you can never expect where they'll be falling from.
 
-![start screen](/docs/images/start_screen_resized.jpg) ![game background](/docs/images/game_background_resized.jpg) ![game over screen](/docs/images/game_over_resized.jpg)
+![start screen](/docs/images/start_screen_resized.jpg) ![game background](images/game_background_resized.jpg) ![game over screen](images/game_over_resized.jpg)
 
 ## Navigation
 
@@ -22,7 +22,7 @@ During gameplay, you will see Wormy and Spidey falling from the top of the scree
 
 ## Putting it all together...
 
-![gameplay demo gif](/docs/images/demo.gif)
+![gameplay demo gif](images/demo.gif)
 
 
 # Installation 
@@ -40,7 +40,7 @@ Now, you should see a pop-up of the game window. Enjoy your play!
 
 # Creators
 
-![Sree profile picture](/docs/images/sree_resized.jpg)
+![Sree profile picture](images/sree_resized.jpg)
 
 [**Sreenidhi Chalimadugu**](https://www.linkedin.com/in/sreenidhi-chalimadugu/)
 
@@ -49,7 +49,7 @@ Olin College of Engineering, 2023
 Electrical and Computer Engineer
 
 
-![Kei profile picture](/docs/images/kei_resized.jpg)
+![Kei profile picture](images/kei_resized.jpg)
 
 [**Kei Chua**](https://www.linkedin.com/in/kei-chua-3a7a96199/)
 
