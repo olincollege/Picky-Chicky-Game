@@ -1,13 +1,13 @@
-import sys
 import random
 import time
+import sys
 import pygame
-# from pygame.locals import *
+#from pygame.locals import *
 from pygame.locals import QUIT
 from Picky_Chicky_board import Spider, Chick, Worm
 from Picky_Chicky_view import *
 
-# Initialzing
+# Initializing
 pygame.init()
 
 # Setting up FPS
@@ -49,8 +49,8 @@ def start_screen():
         view_board.DISPLAYSURF.blit(view_board.resize_start_screen, (-50, -75))
 
         for event in pygame.event.get():
-            if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_RETURN:
+            if event.type == KEYDOWN:
+                if event.key == K_RETURN:
                     end_it = True
         pygame.display.flip()
 
@@ -73,7 +73,7 @@ def game_over(score):
     for entity in all_sprites:
         entity.kill()
     time.sleep(3)
-    pygame.quit()
+    #quit()
     sys.exit()
 
 
@@ -89,7 +89,6 @@ def main():
             if event.type == INC_SPEED:
                 speed += 0.1
             if event.type == QUIT:
-                pygame.quit()
                 sys.exit()
 
         # Display the Background

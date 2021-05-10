@@ -1,11 +1,9 @@
 '''
 Picky Chicky Board Class
 '''
-
+import random
 import pygame
 from pygame.locals import *
-import random
-import time
 from Picky_Chicky_view import *
 
 pygame.init()
@@ -56,7 +54,7 @@ class Chick(pygame.sprite.Sprite):
 
 class Worm(pygame.sprite.Sprite):
     '''
-    Worm Character Class. Keeps track of the movements and positions 
+    Worm Character Class. Keeps track of the movements and positions
     of the worm.
     '''
 
