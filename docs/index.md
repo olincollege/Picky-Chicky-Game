@@ -42,6 +42,6 @@ Now you should see a pop-up of the game window. Enjoy your play!
 
 [Kei Chua](https://www.linkedin.com/in/kei-chua-3a7a96199/)
 
-![Kei profile picture](/docs/kei.jpg)
+![Kei profile picture](/docs/resize_kei.jpg)
 
 ## Resources
