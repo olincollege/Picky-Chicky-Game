@@ -38,10 +38,10 @@ Now you should see a pop-up of the game window. Enjoy your play!
 
 [Sreenidhi Chalimadugu](https://www.linkedin.com/in/sreenidhi-chalimadugu/)
 
-![Sree profile picture](/docs/sree.jpg =250x250)
+![Sree profile picture](/docs/resize_sree.jpg)
 
 [Kei Chua](https://www.linkedin.com/in/kei-chua-3a7a96199/)
 
-![Kei profile picture](/docs/kei.jpg =250x250)
+![Kei profile picture](/docs/kei.jpg)
 
 ## Resources
