@@ -49,10 +49,8 @@ Electrical and Computer Engineer
 
 ![Kei profile picture](images/kei_resized.jpg)
 
-[**Kei Chua**](https://www.linkedin.com/in/kei-chua-3a7a96199/)
-
-Olin College of Engineering, 2023
-
+[**Kei Chua**](https://www.linkedin.com/in/kei-chua-3a7a96199/)  
+Olin College of Engineering, 2023  
 Mechanical Engineer
 
 
