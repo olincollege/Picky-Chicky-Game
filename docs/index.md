@@ -38,7 +38,7 @@ Now you should see a pop-up of the game window. Enjoy your play!
 
 [Sreenidhi Chalimadugu](https://www.linkedin.com/in/sreenidhi-chalimadugu/)
 
-![Sree profile picture](/docs/resize_sree.jpg)
+![Sree profile picture](/docs/resize_sree.jpg) 
 
 [Kei Chua](https://www.linkedin.com/in/kei-chua-3a7a96199/)
 
