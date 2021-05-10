@@ -4,9 +4,15 @@ Welcome to ***Picky Chicky***! In this game, you will help Chicky - who is quite
 
 The game consists of 3 characters: Chicky, Wormy, and Spidey. 
 
+![Chicky](/docs/images/chick.png) ![Wormy](/docs/images/worm.png) ![Spidey](/docs/images/spider.png)
+
+
 ## Gameboard
 
 From the three characters to the start, game, and end screens, all game components have been custom-made with pixel art graphics. With each game run, the places from which Wormy and Spidey fall are randomized, so you can never expect where they'll be falling from.
+
+![start screen](/docs/images/start_screen.png) ![game background](/docs/images/game_background.png) ![game over screen](/docs/images/game_over.png)
+
 
 ## Navigation
 
@@ -34,11 +40,11 @@ Now you should see a pop-up of the game window. Enjoy your play!
 
 ## Creators
 
-[Sreenidhi Chalimadugu](https://www.linkedin.com/in/sreenidhi-chalimadugu/)
+[**Sreenidhi Chalimadugu**](https://www.linkedin.com/in/sreenidhi-chalimadugu/)
 
 ![Sree profile picture](/docs/images/sree_resized.jpg) 
 
-[Kei Chua](https://www.linkedin.com/in/kei-chua-3a7a96199/)
+[**Kei Chua**](https://www.linkedin.com/in/kei-chua-3a7a96199/)
 
 ![Kei profile picture](/docs/images/kei_resized.jpg)
 
