@@ -47,3 +47,6 @@ Now you should see a pop-up of the game window. Enjoy your play!
 ![Kei profile picture](/docs/images/kei_resized.jpg)
 
 ## Resources
+
+To help in creating this game, we took inspiration from the code in this Pygame tutorial from CodersLegacy found [here](https://coderslegacy.com/python/python-pygame-tutorial/).
+
