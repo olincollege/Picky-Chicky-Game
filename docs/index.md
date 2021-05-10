@@ -11,7 +11,7 @@ The game consists of 3 characters: Chicky, Wormy, and Spidey.
 
 From the three characters to the start, game, and end screens, all game components have been custom-made with pixel art graphics. With each game run, the places from which Wormy and Spidey fall are randomized, so you can never expect where they'll be falling from.
 
-![start screen](/docs/images/start_screen.png) ![game background](/docs/images/game_background.png) ![game over screen](/docs/images/game_over.png)
+![start screen](/docs/images/start_screen_resized.png) ![game background](/docs/images/game_background_resized.png) ![game over screen](/docs/images/game_over_resized.png)
 
 
 ## Navigation
@@ -30,9 +30,7 @@ During gameplay, you will see Wormy and Spidey falling from the top of the scree
 
 To play *Picky Chicky*, you will need to installation the Pygame library in Python. You can install Python [here](https://www.python.org/downloads/) and Pygame [here](https://www.pygame.org/wiki/GettingStarted). Next, download the files in the Picky Chicky Game repository from Github [here](https://github.com/olincollege/Picky-Chicky-Game/), and navigate to the Picky Chicky folder in the terminal. Finally, the following code in your command line:
 
-'''
-python Picky_Chicky_game
-'''
+`python Picky_Chicky_game`
 
 Now you should see a pop-up of the game window. Enjoy your play!
 
@@ -49,3 +47,6 @@ Now you should see a pop-up of the game window. Enjoy your play!
 ![Kei profile picture](/docs/images/kei_resized.jpg)
 
 ## Resources
+
+To help in creating this game, we took inspiration from the code in this Pygame tutorial from CodersLegacy found [here](https://coderslegacy.com/python/python-pygame-tutorial/).
+
